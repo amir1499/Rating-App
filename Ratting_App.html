@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ratting App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Ratting_App.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <a href="#"><img src="https://i.ibb.co/Mgh8xXs/menu-arrow-512.png" alt="menuIcon" height="40" width="40"></a>
+      <input type="text" placeholder="search app">
+      <img src="https://cdn1.iconfinder.com/data/icons/MetroStation-PNG/252/MB__search.png" alt="searchIcon" height="38" width="35">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Apps</a></li>
+          <li><a href="3">Downloads</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!--App list rating design-->
+    <div class="app-list">
+      <ul>
+        <li>
+          <img src="https://i.ibb.co/q1Lcz6b/badlandbrowl.png" alt="appIcon" height="60" width="60">
+          <a href="https://play.google.com/store/apps/details?id=com.frogmind.badlandbrawl&hl=en">Badland Browl</a>
+          <figcaption><i>Sling your Clones onto the battlefield! Master your timing and...</i></figcaption>
+          <div class="rating">
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+          </div>
+        </li>
+        <li>
+          <img src="https://i.ibb.co/MN1c2Mw/clash-Royale.png" alt="appIcon" height="60" width="60">
+          <a href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=en">Clash of Clans</a>
+          <figcaption><i>Join millions of players worldwide as you build your village, raise a clan, and...</i></figcaption>
+          <div class="rating">
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+          </div>
+        </li>
+        <li>
+          <img src="https://i.ibb.co/ZGF1fWJ/c-ops.png" alt="appIcon" height="60" width="60">
+          <a href="https://play.google.com/store/apps/details?id=com.criticalforceentertainment.criticalops&hl=en">Critical Ops 4</a>
+          <figcaption><i>Critical Ops is a 3D MULTIPLAYER FPS build for mobile. Experience action, where fast reflexes and ...</i></figcaption>
+          <div class="rating">
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+          </div>
+        </li>
+        <li>
+          <img src="https://i.ibb.co/dLmjBgd/Drive-and-park.png" alt="appIcon" height="60" width="60">
+          <a href="https://play.google.com/store/apps/details?id=com.parking.game&hl=en">Drive and park</a>
+          <figcaption><i>Park cars. Earn money. Travel to around the world and collect cars from each location.</i></figcaption>
+          <div class="rating">
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+            <span style="color: #fde16d;" class="fa fa-star"></span>
+          </div>
+        </li>
+        <li>
+          <img src="https://i.ibb.co/4dgcXtS/Screenshot-1.png" alt="appIcon" height="60" width="60">
+          <a href="https://play.google.com/store/apps/details?id=com.hitrock.hideonline">Hide Online</a>
+          <figcaption><i>Hide Online — an addictive and thrilling multiplayer Hide and Seek action-shooter...</i></figcaption>
+          <div class="rating" style="transform: rotateY(180deg);">
+            <p id="rateMe">Rate Me</p>
+            <span onmouseover="starmark(this)" onclick="starmark(this)" id="1one" class="fa fastar"></span>
+            <span onmouseover="starmark(this)" onclick="starmark(this)" id="2one" class="fa fastar"></span>
+            <span onmouseover="starmark(this)" onclick="starmark(this)" id="3one" class="fa fastar"></span>
+            <span onmouseover="starmark(this)" onclick="starmark(this)" id="4one" class="fa fastar"></span>
+            <span onmouseover="starmark(this)" onclick="starmark(this)" id="5one" class="fa fastar"></span>
+          </div>
+        </li>
+        <li id="description">
+            &copy2022 Design by<a id="designer" href="Ratting_App.html">MOHD.AMIR</a>
+            All apps in this list belong to their respectful owners, make sure to check them out and give them a true rating :)
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="Ratting_App.js"></script>
+</body>
+</html>
